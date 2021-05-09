@@ -5,7 +5,9 @@ export const parseList = (response) => {
     if (!response.data) {
         return [];
     }
+
     let list = response.data;
+    console.info(response.config.method, response.config.baseURL + response.config.url, list);
     return list;
 };
 
@@ -15,5 +17,6 @@ export const parseItem = (response, code) => {
     if (typeof item !== 'object') {
         item = undefined;
     }
+    console.info(response.config.method, response.config.baseURL + response.config.url, item);
     return item;
 };
