@@ -1,0 +1,727 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "The Dark Knight",
+            "thumbnail": "http://kubilaybayraktar.com/imgs/dark_knight.jpg",
+            "genre": [
+                {
+                    "id": 2,
+                    "title": "Drama"
+                },
+                {
+                    "id": 1,
+                    "title": "Action"
+                },
+                {
+                    "id": 4,
+                    "title": "Crime"
+                }
+            ],
+            "actors": [
+                {
+                    "id": 1001,
+                    "name": "Christian Bale"
+                },
+                {
+                    "id": 1002,
+                    "name": "Heath Ledger"
+                }
+            ],
+            "is_series": false,
+            "release_date": "2008-07-25T00:00:00.000000Z"
+        },
+        {
+            "id": 2,
+            "title": "The Notebook",
+            "thumbnail": "http://kubilaybayraktar.com/imgs/notebook.jpg",
+            "genre": [
+                {
+                    "id": 2,
+                    "title": "Drama"
+                },
+                {
+                    "id": 6,
+                    "title": "Romance"
+                }
+            ],
+            "actors": [
+                {
+                    "id": 1005,
+                    "name": "Ryan Gosling"
+                },
+                {
+                    "id": 1006,
+                    "name": "Rachel McAdams"
+                }
+            ],
+            "is_series": false,
+            "release_date": "2004-06-25T00:00:00.000000Z"
+        },
+        {
+            "id": 3,
+            "title": "An American Tail: Fievel Goes West",
+            "thumbnail": "http://kubilaybayraktar.com/imgs/americantail.jpg",
+            "genre": [
+                {
+                    "id": 3,
+                    "title": "Comedy"
+                },
+                {
+                    "id": 5,
+                    "title": "Western"
+                }
+            ],
+            "actors": [
+                {
+                    "id": 1003,
+                    "name": "Fievel Mousekewitz"
+                },
+                {
+                    "id": 1004,
+                    "name": "Tanya MouseKewitz"
+                }
+            ],
+            "is_series": true,
+            "release_date": "1991-11-17T00:00:00.000000Z"
+        },
+        {
+            "id": 4,
+            "title": "The Shawshank Redemption",
+            "thumbnail": "http://kubilaybayraktar.com/imgs/shawshank.jpg",
+            "genre": [
+                {
+                    "id": 2,
+                    "title": "Drama"
+                }
+            ],
+            "actors": [
+                {
+                    "id": 1007,
+                    "name": "Morgan Freeman"
+                },
+                {
+                    "id": 1008,
+                    "name": "Bob Gunton"
+                }
+            ],
+            "is_series": false,
+            "release_date": "1995-03-10T00:00:00.000000Z"
+        },
+        {
+            "id": 5,
+            "title": "Fight Club",
+            "thumbnail": "http://kubilaybayraktar.com/imgs/fightclub.jpg",
+            "genre": [
+                {
+                    "id": 2,
+                    "title": "Drama"
+                }
+            ],
+            "actors": [
+                {
+                    "id": 1009,
+                    "name": "Brad Pitt"
+                },
+                {
+                    "id": 1010,
+                    "name": " Edward Norton"
+                }
+            ],
+            "is_series": false,
+            "release_date": "1999-12-10T00:00:00.000000Z"
+        },
+        {
+            "id": 6,
+            "title": "Inception",
+            "thumbnail": "http://kubilaybayraktar.com/imgs/inception.jpg",
+            "genre": [
+                {
+                    "id": 1,
+                    "title": "Action"
+                },
+                {
+                    "id": 7,
+                    "title": "Adventure"
+                },
+                {
+                    "id": 8,
+                    "title": "Sci-Fi"
+                }
+            ],
+            "actors": [
+                {
+                    "id": 1011,
+                    "name": "Leonardo DiCaprio"
+                },
+                {
+                    "id": 1012,
+                    "name": " Elliot Page"
+                }
+            ],
+            "is_series": false,
+            "release_date": "2010-07-20T00:00:00.000000Z"
+        },
+        {
+            "id": 7,
+            "title": "Matrix",
+            "thumbnail": "http://kubilaybayraktar.com/imgs/matrix.jpg",
+            "genre": [
+                {
+                    "id": 1,
+                    "title": "Action"
+                },
+                {
+                    "id": 8,
+                    "title": "Sci-Fi"
+                }
+            ],
+            "actors": [
+                {
+                    "id": 1013,
+                    "name": "Keanu Reeves"
+                },
+                {
+                    "id": 1014,
+                    "name": "Laurence Fishburne"
+                }
+            ],
+            "is_series": false,
+            "release_date": "1999-09-03T00:00:00.000000Z"
+        },
+        {
+            "id": 8,
+            "title": "Interstellar",
+            "thumbnail": "http://kubilaybayraktar.com/imgs/interstellar.jpg",
+            "genre": [
+                {
+                    "id": 7,
+                    "title": "Adventure"
+                },
+                {
+                    "id": 2,
+                    "title": "Drama"
+                },
+                {
+                    "id": 8,
+                    "title": "Sci-Fi"
+                }
+            ],
+            "actors": [
+                {
+                    "id": 1015,
+                    "name": "Matthew McConaughey"
+                },
+                {
+                    "id": 1016,
+                    "name": "Anne Hathaway"
+                }
+            ],
+            "is_series": false,
+            "release_date": "2005-11-07T00:00:00.000000Z"
+        },
+        {
+            "id": 9,
+            "title": "The Usual Suspects",
+            "thumbnail": "http://kubilaybayraktar.com/imgs/usual.jpg",
+            "genre": [
+                {
+                    "id": 4,
+                    "title": "Crime"
+                },
+                {
+                    "id": 9,
+                    "title": "Mystery"
+                }
+            ],
+            "actors": [
+                {
+                    "id": 1017,
+                    "name": "Kevin Spacey"
+                },
+                {
+                    "id": 1018,
+                    "name": "Gabriel Byrne"
+                }
+            ],
+            "is_series": false,
+            "release_date": "1995-12-15T00:00:00.000000Z"
+        },
+        {
+            "id": 10,
+            "title": "Back to the Future",
+            "thumbnail": "http://kubilaybayraktar.com/imgs/bttf.jpg",
+            "genre": [
+                {
+                    "id": 1,
+                    "title": "Action"
+                },
+                {
+                    "id": 3,
+                    "title": "Comedy"
+                },
+                {
+                    "id": 8,
+                    "title": "Sci-Fi"
+                }
+            ],
+            "actors": [
+                {
+                    "id": 1019,
+                    "name": "Michael J. Fox"
+                },
+                {
+                    "id": 1020,
+                    "name": "Christopher Lloyd"
+                }
+            ],
+            "is_series": false,
+            "release_date": "1987-02-15T00:00:00.000000Z"
+        },
+        {
+            "id": 11,
+            "title": "The Departed",
+            "thumbnail": "http://kubilaybayraktar.com/imgs/departed.jpg",
+            "genre": [
+                {
+                    "id": 4,
+                    "title": "Crime"
+                },
+                {
+                    "id": 2,
+                    "title": "Drama"
+                }
+            ],
+            "actors": [
+                {
+                    "id": 1011,
+                    "name": "Leonardo DiCaprio"
+                },
+                {
+                    "id": 1021,
+                    "name": "Matt Damon"
+                }
+            ],
+            "is_series": false,
+            "release_date": "2006-11-24T00:00:00.000000Z"
+        },
+        {
+            "id": 12,
+            "title": "The Prestige",
+            "thumbnail": "http://kubilaybayraktar.com/imgs/prestige.jpg",
+            "genre": [
+                {
+                    "id": 4,
+                    "title": "Crime"
+                },
+                {
+                    "id": 9,
+                    "title": "Mystery"
+                },
+                {
+                    "id": 8,
+                    "title": "Sci-Fi"
+                }
+            ],
+            "actors": [
+                {
+                    "id": 1001,
+                    "name": "Christian Bale"
+                },
+                {
+                    "id": 1022,
+                    "name": "Hugh Jackman"
+                }
+            ],
+            "is_series": false,
+            "release_date": "2006-11-24T00:00:00.000000Z"
+        }
+    ],
+    "genres": [
+        {
+            "id": 1,
+            "title": "Action"
+        },
+        {
+            "id": 2,
+            "title": "Drama"
+        },
+        {
+            "id": 3,
+            "title": "Comedy"
+        },
+        {
+            "id": 4,
+            "title": "Crime"
+        },
+        {
+            "id": 5,
+            "title": "Western"
+        },
+        {
+            "id": 6,
+            "title": "Romance"
+        },
+        {
+            "id": 7,
+            "title": "Adventure"
+        },
+        {
+            "id": 8,
+            "title": "Sci-Fi"
+        },
+        {
+            "id": 9,
+            "title": "Mystery"
+        }
+    ],
+    "actors": [
+        {
+            "id": 1001,
+            "name": "Christian Bale"
+        },
+        {
+            "id": 1002,
+            "name": "Heath Ledger"
+        },
+        {
+            "id": 1003,
+            "name": "Fievel Mousekewitz"
+        },
+        {
+            "id": 1004,
+            "name": "Tanya MouseKewitz"
+        },
+        {
+            "id": 1005,
+            "name": "Ryan Gosling"
+        },
+        {
+            "id": 1006,
+            "name": "Rachel McAdams"
+        },
+        {
+            "id": 1007,
+            "name": "Morgan Freeman"
+        },
+        {
+            "id": 1008,
+            "name": "Bob Gunton"
+        },
+        {
+            "id": 1009,
+            "name": "Brad Pitt"
+        },
+        {
+            "id": 1010,
+            "name": "Edward Norton"
+        },
+        {
+            "id": 1011,
+            "name": "Leonardo DiCaprio"
+        },
+        {
+            "id": 1012,
+            "name": " Elliot Page"
+        },
+        {
+            "id": 1013,
+            "name": "Keanu Reeves"
+        },
+        {
+            "id": 1014,
+            "name": "Laurence Fishburne"
+        },
+        {
+            "id": 1015,
+            "name": "Matthew McConaughey"
+        },
+        {
+            "id": 1016,
+            "name": "Anne Hathaway"
+        },
+        {
+            "id": 1017,
+            "name": "Kevin Spacey"
+        },
+        {
+            "id": 1018,
+            "name": "Gabriel Byrne"
+        },
+        {
+            "id": 1019,
+            "name": "Michael J. Fox"
+        },
+        {
+            "id": 1020,
+            "name": "Christopher Lloyd"
+        },
+        {
+            "id": 1021,
+            "name": "Matt Damon"
+        },
+        {
+            "id": 1022,
+            "name": "Hugh Jackman"
+        }
+    ],
+    "movieGenres": [
+        {
+            "id": 1,
+            "movieId": 1,
+            "genreId": 2
+        },
+        {
+            "id": 2,
+            "movieId": 1,
+            "genreId": 1
+        },
+        {
+            "id": 3,
+            "movieId": 1,
+            "genreId": 4
+        },
+        {
+            "id": 4,
+            "movieId": 2,
+            "genreId": 2
+        },
+        {
+            "id": 5,
+            "movieId": 2,
+            "genreId": 6
+        },
+        {
+            "id": 6,
+            "movieId": 3,
+            "genreId": 3
+        },
+        {
+            "id": 7,
+            "movieId": 3,
+            "genreId": 5
+        },
+        {
+            "id": 8,
+            "movieId": 4,
+            "genreId": 2
+        },
+        {
+            "id": 9,
+            "movieId": 5,
+            "genreId": 2
+        },
+        {
+            "id": 10,
+            "movieId": 6,
+            "genreId": 1
+        },
+        {
+            "id": 11,
+            "movieId": 6,
+            "genreId": 7
+        },
+        {
+            "id": 11,
+            "movieId": 6,
+            "genreId": 8
+        },
+        {
+            "id": 12,
+            "movieId": 7,
+            "genreId": 1
+        },
+        {
+            "id": 13,
+            "movieId": 7,
+            "genreId": 8
+        },
+        {
+            "id": 14,
+            "movieId": 8,
+            "genreId": 7
+        },
+        {
+            "id": 15,
+            "movieId": 8,
+            "genreId": 2
+        },
+        {
+            "id": 16,
+            "movieId": 8,
+            "genreId": 8
+        },
+        {
+            "id": 17,
+            "movieId": 9,
+            "genreId": 4
+        },
+        {
+            "id": 18,
+            "movieId": 9,
+            "genreId": 9
+        },
+        {
+            "id": 19,
+            "movieId": 10,
+            "genreId": 1
+        },
+        {
+            "id": 20,
+            "movieId": 10,
+            "genreId": 3
+        },
+        {
+            "id": 21,
+            "movieId": 10,
+            "genreId": 8
+        },
+        {
+            "id": 22,
+            "movieId": 11,
+            "genreId": 4
+        },
+        {
+            "id": 23,
+            "movieId": 11,
+            "genreId": 2
+        },
+        {
+            "id": 24,
+            "movieId": 12,
+            "genreId": 4
+        },
+        {
+            "id": 25,
+            "movieId": 12,
+            "genreId": 9
+        },
+        {
+            "id": 26,
+            "movieId": 12,
+            "genreId": 8
+        }
+    ],
+    "movieActors": [
+        {
+            "id": 1,
+            "movieId": 1,
+            "actorId": 1001
+        },
+        {
+            "id": 2,
+            "movieId": 1,
+            "actorId": 1002
+        },
+        {
+            "id": 3,
+            "movieId": 2,
+            "actorId": 1005
+        },
+        {
+            "id": 4,
+            "movieId": 2,
+            "actorId": 1006
+        },
+        {
+            "id": 5,
+            "movieId": 3,
+            "actorId": 1003
+        },
+        {
+            "id": 6,
+            "movieId": 3,
+            "actorId": 1004
+        },
+        {
+            "id": 7,
+            "movieId": 4,
+            "actorId": 1007
+        },
+        {
+            "id": 8,
+            "movieId": 4,
+            "actorId": 1008
+        },
+        {
+            "id": 9,
+            "movieId": 5,
+            "actorId": 1009
+        },
+        {
+            "id": 10,
+            "movieId": 5,
+            "actorId": 1010
+        },
+        {
+            "id": 11,
+            "movieId": 6,
+            "actorId": 1011
+        },
+        {
+            "id": 12,
+            "movieId": 6,
+            "actorId": 1012
+        },
+        {
+            "id": 13,
+            "movieId": 7,
+            "actorId": 1013
+        },
+        {
+            "id": 14,
+            "movieId": 7,
+            "actorId": 1014
+        },
+        {
+            "id": 14,
+            "movieId": 8,
+            "actorId": 1015
+        },
+        {
+            "id": 15,
+            "movieId": 8,
+            "actorId": 1016
+        },
+        {
+            "id": 16,
+            "movieId": 9,
+            "actorId": 1017
+        },
+        {
+            "id": 17,
+            "movieId": 9,
+            "actorId": 1018
+        },
+        {
+            "id": 18,
+            "movieId": 10,
+            "actorId": 1019
+        },
+        {
+            "id": 19,
+            "movieId": 10,
+            "actorId": 1020
+        },
+        {
+            "id": 20,
+            "movieId": 11,
+            "actorId": 1011
+        },
+        {
+            "id": 21,
+            "movieId": 11,
+            "actorId": 1021
+        },
+        {
+            "id": 22,
+            "movieId": 12,
+            "actorId": 1001
+        },
+        {
+            "id": 23,
+            "movieId": 12,
+            "actorId": 1022
+        }
+    ]
+}
