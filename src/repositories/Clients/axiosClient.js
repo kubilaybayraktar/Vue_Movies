@@ -1,7 +1,7 @@
 import * as axios from 'axios';
-import { API } from './config';
+//import { API } from './config';
 
-const baseURL = `${API}`;
+const baseURL = `http://moviesapi.kubilaybayraktar.com/`;
 
 export default axios.create({
     baseURL,

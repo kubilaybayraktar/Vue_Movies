@@ -1,6 +1,4 @@
 import client from './Clients/axiosClient';
-import movieGenresRepository from './movieGenresRepository';
-import movieActorsRepository from './movieActorsRepository';
 import { parseList, parseItem } from './helpers/parseHelper';
 
 const resource = '/movies';
@@ -22,31 +20,19 @@ export default {
         return client.delete(`${resource}/${id}`);
     },
     async search(term, genre, actor) {
-        let url = `${resource}`;
+        let url = `${resource}/search`;
         let query = ``;
         if (term) {
             query += query === `` ? `?` : `&`;
-            query += `title_like=${term}`;
+            query += `term=${term}`;
         }
         if (genre > 0) {
-            const movieGenres = await movieGenresRepository.getMovieGenresByGenreId(genre);
-            if (movieGenres) {
-                const movieIds = movieGenres.map((mg) => mg.movieId);
-                movieIds.map((id) => {
-                    query += query === `` ? `?` : `&`;
-                    query += `id=${id}`;
-                });
-            }
+            query += query === `` ? `?` : `&`;
+            query += `genreId=${genre}`;
         }
-        if (actor) {
-            const movieActors = await movieActorsRepository.getMovieActorsByActorId(actor);
-            if (movieActors) {
-                const movieIds = movieActors.map((mg) => mg.movieId);
-                movieIds.map((id) => {
-                    query += query === `` ? `?` : `&`;
-                    query += `id=${id}`;
-                });
-            }
+        if (actor > 0) {
+            query += query === `` ? `?` : `&`;
+            query += `actorId=${actor}`;
         }
         url += query;
         return parseList(await client.get(url));

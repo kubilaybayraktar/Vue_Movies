@@ -18,11 +18,11 @@
                 <label class="label">Actors: {{ actors }}</label>
               </div>
               <div class="field">
-                <label class="label">Is Series: {{ movie.is_series }}</label>
+                <label class="label">Is Series: {{ movie.is_Series }}</label>
               </div>
               <div class="field">
                 <label class="label"
-                  >Release Date: {{ movie.release_date | formatDate }}</label
+                  >Release Date: {{ movie.releaseDate | formatDate }}</label
                 >
               </div>
               <button class="button is-info" @click="cancelMovie()">
@@ -57,6 +57,7 @@ export default {
   },
   async created() {
     this.movie = await MoviesRepository.getMovie(this.id);
+    console.log("moviex", this.movie);
   },
   methods: {
     cancelMovie() {
@@ -66,8 +67,8 @@ export default {
   computed: {
     genres() {
       let genres = "";
-      if (this.movie && this.movie.genre) {
-        this.movie.genre.map((g) => {
+      if (this.movie && this.movie.genres) {
+        this.movie.genres.map((g) => {
           genres += g.title + ",";
         });
       }
